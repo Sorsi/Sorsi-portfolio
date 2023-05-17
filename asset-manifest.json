@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sorsi-portfolio/static/css/main.2eff8f53.css",
+    "main.css": "/Sorsi-portfolio/static/css/main.0011b833.css",
     "main.js": "/Sorsi-portfolio/static/js/main.86137ae8.js",
     "static/media/coffeeStore.png": "/Sorsi-portfolio/static/media/coffeeStore.87b1f007459ef1209f08.png",
     "static/media/Sorsi-about.png": "/Sorsi-portfolio/static/media/Sorsi-about.f9ca88afb1296d143b79.png",
@@ -13,11 +13,11 @@
     "static/media/mathSite.png": "/Sorsi-portfolio/static/media/mathSite.c0224d462785b744e115.png",
     "static/media/quizUp.png": "/Sorsi-portfolio/static/media/quizUp.b2ec0026af6c7eb223ce.png",
     "index.html": "/Sorsi-portfolio/index.html",
-    "main.2eff8f53.css.map": "/Sorsi-portfolio/static/css/main.2eff8f53.css.map",
+    "main.0011b833.css.map": "/Sorsi-portfolio/static/css/main.0011b833.css.map",
     "main.86137ae8.js.map": "/Sorsi-portfolio/static/js/main.86137ae8.js.map"
   },
   "entrypoints": [
-    "static/css/main.2eff8f53.css",
+    "static/css/main.0011b833.css",
     "static/js/main.86137ae8.js"
   ]
 }
