@@ -15,7 +15,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-width: 664px;
+  min-width: 400px;
   height: 100%;
 }
 
@@ -56,7 +56,7 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 50%;
   margin: auto;
 }
@@ -194,5 +194,18 @@
 
   .contact-list span {
     font-size: 16px;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-links a {
+    font-size: 3em;
+  }
+
+  .banner-text h1 {
+    font-size: 40px;
   }
 }
