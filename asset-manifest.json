@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sorsi-portfolio/static/css/main.2eff8f53.css",
-    "main.js": "/Sorsi-portfolio/static/js/main.1c85775f.js",
+    "main.js": "/Sorsi-portfolio/static/js/main.86137ae8.js",
     "static/media/coffeeStore.png": "/Sorsi-portfolio/static/media/coffeeStore.87b1f007459ef1209f08.png",
     "static/media/Sorsi-about.png": "/Sorsi-portfolio/static/media/Sorsi-about.f9ca88afb1296d143b79.png",
     "static/media/Sorsi-resume.png": "/Sorsi-portfolio/static/media/Sorsi-resume.b3ea3b3fe846e1abc198.png",
@@ -14,10 +14,10 @@
     "static/media/quizUp.png": "/Sorsi-portfolio/static/media/quizUp.b2ec0026af6c7eb223ce.png",
     "index.html": "/Sorsi-portfolio/index.html",
     "main.2eff8f53.css.map": "/Sorsi-portfolio/static/css/main.2eff8f53.css.map",
-    "main.1c85775f.js.map": "/Sorsi-portfolio/static/js/main.1c85775f.js.map"
+    "main.86137ae8.js.map": "/Sorsi-portfolio/static/js/main.86137ae8.js.map"
   },
   "entrypoints": [
     "static/css/main.2eff8f53.css",
-    "static/js/main.1c85775f.js"
+    "static/js/main.86137ae8.js"
   ]
 }
