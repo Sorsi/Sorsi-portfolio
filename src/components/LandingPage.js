@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import homePic from '../images/Sorsi-home.png';
 
 class Landing extends Component {
 	render() {
@@ -8,7 +9,7 @@ class Landing extends Component {
 				<Grid className="landing-grid">
 					<Cell col={12}>
 						<div className="profile-pic-container">
-							<img className="profile-pic" src="Sorsi-home.png" alt="pic" />
+							<img className="profile-pic" src={homePic} alt="sorsi-home-pic" />
 						</div>
 						<div className="banner-text">
 							<h1>Sorftware Developer</h1>

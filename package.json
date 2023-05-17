@@ -1,6 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.2.0",
+  "homepage": "https://sorsi.github.io/Sorsi-portfolio",
   "private": true,
   "engines": {
     "node": "10.14.2",
@@ -22,9 +23,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",

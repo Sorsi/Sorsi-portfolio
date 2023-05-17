@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import aboutPic from '../images/Sorsi-about.png';
 
 class About extends Component {
 	render() {
@@ -7,7 +8,7 @@ class About extends Component {
 				<h2>Orsolya Sütő</h2>
 				<img
 					id="profile-pic"
-					src="Sorsi-about.png"
+					src={aboutPic}
 					alt="profile"
 					style={{ height: '250px' }}
 				/>
