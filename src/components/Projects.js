@@ -61,7 +61,7 @@ class Projects extends Component {
 							</a>
 							<a
 								className="button-ancestor"
-								href="http://sorso.host20.uk/CoffeeQuiz"
+								href="https://sorsi.github.io/coffeeQuiz"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
@@ -132,7 +132,7 @@ class Projects extends Component {
 						<CardActions border>
 							<a
 								className="button-ancestor"
-								href="https://github.com/Sorsi/PlanetApps/tree/master/weather-app"
+								href="https://github.com/Sorsi/weather-app"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
@@ -148,7 +148,7 @@ class Projects extends Component {
 							</a>
 							<a
 								className="button-ancestor"
-								href="http://sorso.host20.uk/WeatherApp/"
+								href="https://sorsi.github.io/weather-app/"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
@@ -171,7 +171,7 @@ class Projects extends Component {
 						<CardActions border>
 							<a
 								className="button-ancestor"
-								href="https://github.com/Sorsi/PlanetApps/tree/master/robofriends"
+								href="https://github.com/Sorsi/robofriends"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
@@ -187,7 +187,7 @@ class Projects extends Component {
 							</a>
 							<a
 								className="button-ancestor"
-								href="http://sorso.host20.uk/RoboFriends/"
+								href="http://sorsi.github.io/robofriends"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
@@ -210,7 +210,7 @@ class Projects extends Component {
 						<CardActions border>
 							<a
 								className="button-ancestor"
-								href="https://github.com/Sorsi/PlanetApps/tree/master/movie-database"
+								href="https://github.com/Sorsimovie-database"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
@@ -226,7 +226,7 @@ class Projects extends Component {
 							</a>
 							<a
 								className="button-ancestor"
-								href="http://sorso.host20.uk/MovieDatabase/"
+								href="https://sorsi.github.io/movie-database/"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
@@ -309,7 +309,7 @@ class Projects extends Component {
 							</a>
 							<a
 								className="button-ancestor"
-								href="http://sorso.host20.uk/CoffeeStore/index.html"
+								href="https://sorsi.github.io/Sorsi-s-Coffe-Store/"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
@@ -348,7 +348,7 @@ class Projects extends Component {
 							</a>
 							<a
 								className="button-ancestor"
-								href="http://sorso.host20.uk/MathsWebsite/"
+								href="https://sorsi.github.io/Math-Site/"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
@@ -387,7 +387,7 @@ class Projects extends Component {
 							</a>
 							<a
 								className="button-ancestor"
-								href="http://sorso.host20.uk/MathsGame/"
+								href="https://sorsi.github.io/MathsGame/"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
