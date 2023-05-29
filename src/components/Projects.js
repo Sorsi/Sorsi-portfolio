@@ -210,7 +210,7 @@ class Projects extends Component {
 						<CardActions border>
 							<a
 								className="button-ancestor"
-								href="https://github.com/Sorsimovie-database"
+								href="https://github.com/Sorsi/movie-database"
 								rel="noopener noreferrer"
 								target="_blank"
 							>
