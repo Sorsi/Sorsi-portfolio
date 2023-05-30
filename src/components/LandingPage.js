@@ -12,7 +12,7 @@ class Landing extends Component {
 							<img className="profile-pic" src={homePic} alt="sorsi-home-pic" />
 						</div>
 						<div className="banner-text">
-							<h1>Sorftware Developer</h1>
+							<h1>Software Developer</h1>
 							<hr />
 							<p>
 								HTML/CSS | Ant Design | JavaScript | Raact | Redux | MongoDB
