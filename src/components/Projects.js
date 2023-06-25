@@ -19,6 +19,8 @@ import coffeeStore from '../images/coffeeStore.png';
 import mathSite from '../images/mathSite.png';
 import pure from '../images/pure.png';
 import memoriesApp from '../images/memoriesApp.png';
+import wheelOfFortune from '../images/wheelOfFortune';
+import weatherForecast from '../images/weatherForecast';
 
 class Projects extends Component {
 	constructor(props) {
@@ -164,6 +166,45 @@ class Projects extends Component {
 							style={{
 								color: '#000',
 								height: '176px',
+								backgroundImage: `url(${weatherApp})`,
+							}}
+						></CardTitle>
+						<CardText>Weather Forecast</CardText>
+						<CardActions border>
+							<a
+								className="button-ancestor"
+								href="https://github.com/Sorsi/weather-forecast"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								GitHub
+							</a>
+							<a
+								className="button-ancestor"
+								href={weatherForecast}
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								Show a pic
+							</a>
+							<a
+								className="button-ancestor"
+								href="https://sorsi.github.io/weather-forecast/"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								App
+							</a>
+						</CardActions>
+						<CardMenu style={{ color: '#fff' }}>
+							<IconButton name="share" />
+						</CardMenu>
+					</Card>
+					<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+						<CardTitle
+							style={{
+								color: '#000',
+								height: '176px',
 								background: `url(${roboFriends})  center / cover`,
 							}}
 						></CardTitle>
@@ -279,6 +320,48 @@ class Projects extends Component {
 				</div>
 			);
 		} else if (this.state.activeTab === 2) {
+			<div className="projects-grid">
+				<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+						<CardTitle
+							style={{
+								color: '#000',
+								height: '176px',
+								backgroundImage: `url(${coffeeStore})`,
+							}}
+						></CardTitle>
+						<CardText>Wheel of Fortune Game</CardText>
+						<CardActions border>
+							<a
+								className="button-ancestor"
+								href="https://github.com/Sorsi/wheel-of-fortune"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								GitHub
+							</a>
+							<a
+								className="button-ancestor"
+								href={wheelOfFortune}
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								Show a pic
+							</a>
+							<a
+								className="button-ancestor"
+								href="https://wheel-of-fortune-sooty.vercel.app/"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								App
+							</a>
+						</CardActions>
+						<CardMenu style={{ color: '#fff' }}>
+							<IconButton name="share" />
+						</CardMenu>
+					</Card>
+			</div>
+		} else if (this.state.activeTab === 3) {
 			return (
 				<div className="projects-grid">
 					<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
@@ -413,6 +496,7 @@ class Projects extends Component {
 				>
 					<Tab>Angular</Tab>
 					<Tab>React</Tab>
+					<Tab>Next</Tab>
 					<Tab>Pure JS</Tab>
 				</Tabs>
 				<Grid>
