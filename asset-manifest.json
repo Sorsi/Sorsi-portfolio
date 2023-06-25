@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sorsi-portfolio/static/css/main.694d05b2.css",
-    "main.js": "/Sorsi-portfolio/static/js/main.3569f6ed.js",
+    "main.js": "/Sorsi-portfolio/static/js/main.dac8cf75.js",
     "static/media/coffeeStore.png": "/Sorsi-portfolio/static/media/coffeeStore.87b1f007459ef1209f08.png",
     "static/media/Sorsi-about.png": "/Sorsi-portfolio/static/media/Sorsi-about.f9ca88afb1296d143b79.png",
     "static/media/Sorsi-resume.png": "/Sorsi-portfolio/static/media/Sorsi-resume.b3ea3b3fe846e1abc198.png",
@@ -11,13 +11,16 @@
     "static/media/weatherApp.png": "/Sorsi-portfolio/static/media/weatherApp.5ef353f679ff83b9a2ca.png",
     "static/media/roboFriends.png": "/Sorsi-portfolio/static/media/roboFriends.0cf21ab2a7db97b05f32.png",
     "static/media/mathSite.png": "/Sorsi-portfolio/static/media/mathSite.c0224d462785b744e115.png",
+    "static/media/nextjs.png": "/Sorsi-portfolio/static/media/nextjs.2e6a1b95bb207fbb401b.png",
+    "static/media/weatherForecast.png": "/Sorsi-portfolio/static/media/weatherForecast.f97c7d4ff722ccd86ee4.png",
     "static/media/quizUp.png": "/Sorsi-portfolio/static/media/quizUp.b2ec0026af6c7eb223ce.png",
+    "static/media/wheelOfFortune.png": "/Sorsi-portfolio/static/media/wheelOfFortune.77b63a9bbc5bca582d8f.png",
     "index.html": "/Sorsi-portfolio/index.html",
     "main.694d05b2.css.map": "/Sorsi-portfolio/static/css/main.694d05b2.css.map",
-    "main.3569f6ed.js.map": "/Sorsi-portfolio/static/js/main.3569f6ed.js.map"
+    "main.dac8cf75.js.map": "/Sorsi-portfolio/static/js/main.dac8cf75.js.map"
   },
   "entrypoints": [
     "static/css/main.694d05b2.css",
-    "static/js/main.3569f6ed.js"
+    "static/js/main.dac8cf75.js"
   ]
 }
