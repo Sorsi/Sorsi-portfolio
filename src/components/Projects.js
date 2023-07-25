@@ -19,8 +19,9 @@ import coffeeStore from '../images/coffeeStore.png';
 import mathSite from '../images/mathSite.png';
 import pure from '../images/pure.png';
 import memoriesApp from '../images/memoriesApp.png';
-import wheelOfFortune from '../images/wheelOfFortune';
-import weatherForecast from '../images/weatherForecast';
+import wheelOfFortune from '../images/wheelOfFortune.png';
+import weatherForecast from '../images/weatherForecast.png';
+import nextjsIcon from '../images/nextjsIcon.png';
 
 class Projects extends Component {
 	constructor(props) {
@@ -121,212 +122,216 @@ class Projects extends Component {
 			);
 		} else if (this.state.activeTab === 1) {
 			return (
+				<div>
+					<div className="projects-grid">
+						<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+							<CardTitle
+								style={{
+									color: '#000',
+									height: '176px',
+									backgroundImage: `url(${weatherApp})`,
+								}}
+							></CardTitle>
+							<CardText>Weather App</CardText>
+							<CardActions border>
+								<a
+									className="button-ancestor"
+									href="https://github.com/Sorsi/weather-app"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									GitHub
+								</a>
+								<a
+									className="button-ancestor"
+									href={weatherApp}
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									Show a pic
+								</a>
+								<a
+									className="button-ancestor"
+									href="https://sorsi.github.io/weather-app/"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									App
+								</a>
+							</CardActions>
+							<CardMenu style={{ color: '#fff' }}>
+								<IconButton name="share" />
+							</CardMenu>
+						</Card>
+						<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+							<CardTitle
+								style={{
+									color: '#000',
+									height: '176px',
+									backgroundImage: `url(${weatherApp})`,
+								}}
+							></CardTitle>
+							<CardText>Weather Forecast</CardText>
+							<CardActions border>
+								<a
+									className="button-ancestor"
+									href="https://github.com/Sorsi/weather-forecast"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									GitHub
+								</a>
+								<a
+									className="button-ancestor"
+									href={weatherForecast}
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									Show a pic
+								</a>
+								<a
+									className="button-ancestor"
+									href="https://sorsi.github.io/weather-forecast/"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									App
+								</a>
+							</CardActions>
+							<CardMenu style={{ color: '#fff' }}>
+								<IconButton name="share" />
+							</CardMenu>
+						</Card>
+						<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+							<CardTitle
+								style={{
+									color: '#000',
+									height: '176px',
+									background: `url(${roboFriends})  center / cover`,
+								}}
+							></CardTitle>
+							<CardText>RoboFriends</CardText>
+							<CardActions border>
+								<a
+									className="button-ancestor"
+									href="https://github.com/Sorsi/robofriends"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									GitHub
+								</a>
+								<a
+									className="button-ancestor"
+									href={roboFriends}
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									Show a pic
+								</a>
+								<a
+									className="button-ancestor"
+									href="http://sorsi.github.io/robofriends"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									App
+								</a>
+							</CardActions>
+							<CardMenu style={{ color: '#fff' }}>
+								<IconButton name="share" />
+							</CardMenu>
+						</Card>
+						<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+							<CardTitle
+								style={{
+									color: '#000',
+									height: '176px',
+									backgroundImage: `url(${movieDatabase})`,
+								}}
+							></CardTitle>
+							<CardText>Movie Database</CardText>
+							<CardActions border>
+								<a
+									className="button-ancestor"
+									href="https://github.com/Sorsi/movie-database"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									GitHub
+								</a>
+								<a
+									className="button-ancestor"
+									href={movieDatabase}
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									Show a pic
+								</a>
+								<a
+									className="button-ancestor"
+									href="https://sorsi.github.io/movie-database/"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									App
+								</a>
+							</CardActions>
+							<CardMenu style={{ color: '#fff' }}>
+								<IconButton name="share" />
+							</CardMenu>
+						</Card>
+						<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+							<CardTitle
+								style={{
+									color: '#000',
+									height: '176px',
+									backgroundImage: `url(${memoriesApp})`,
+								}}
+							></CardTitle>
+							<CardText>Memories App</CardText>
+							<CardActions border>
+								<a
+									className="button-ancestor"
+									href="https://github.com/Sorsi/Memories"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									GitHub
+								</a>
+								<a
+									className="button-ancestor"
+									href={memoriesApp}
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									Show a pic
+								</a>
+								<a
+									className="button-ancestor"
+									href="https://xenodochial-euler-0680bb.netlify.app/"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									App
+								</a>
+							</CardActions>
+							<CardMenu style={{ color: '#fff' }}>
+								<IconButton name="share" />
+							</CardMenu>
+						</Card>
+					</div>
+				</div>
+			);
+		} else if (this.state.activeTab === 2) {
+			return (
 				<div className="projects-grid">
 					<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
 						<CardTitle
 							style={{
 								color: '#000',
 								height: '176px',
-								backgroundImage: `url(${weatherApp})`,
-							}}
-						></CardTitle>
-						<CardText>Weather App</CardText>
-						<CardActions border>
-							<a
-								className="button-ancestor"
-								href="https://github.com/Sorsi/weather-app"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								GitHub
-							</a>
-							<a
-								className="button-ancestor"
-								href={weatherApp}
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								Show a pic
-							</a>
-							<a
-								className="button-ancestor"
-								href="https://sorsi.github.io/weather-app/"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								App
-							</a>
-						</CardActions>
-						<CardMenu style={{ color: '#fff' }}>
-							<IconButton name="share" />
-						</CardMenu>
-					</Card>
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-						<CardTitle
-							style={{
-								color: '#000',
-								height: '176px',
-								backgroundImage: `url(${weatherApp})`,
-							}}
-						></CardTitle>
-						<CardText>Weather Forecast</CardText>
-						<CardActions border>
-							<a
-								className="button-ancestor"
-								href="https://github.com/Sorsi/weather-forecast"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								GitHub
-							</a>
-							<a
-								className="button-ancestor"
-								href={weatherForecast}
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								Show a pic
-							</a>
-							<a
-								className="button-ancestor"
-								href="https://sorsi.github.io/weather-forecast/"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								App
-							</a>
-						</CardActions>
-						<CardMenu style={{ color: '#fff' }}>
-							<IconButton name="share" />
-						</CardMenu>
-					</Card>
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-						<CardTitle
-							style={{
-								color: '#000',
-								height: '176px',
-								background: `url(${roboFriends})  center / cover`,
-							}}
-						></CardTitle>
-						<CardText>RoboFriends</CardText>
-						<CardActions border>
-							<a
-								className="button-ancestor"
-								href="https://github.com/Sorsi/robofriends"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								GitHub
-							</a>
-							<a
-								className="button-ancestor"
-								href={roboFriends}
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								Show a pic
-							</a>
-							<a
-								className="button-ancestor"
-								href="http://sorsi.github.io/robofriends"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								App
-							</a>
-						</CardActions>
-						<CardMenu style={{ color: '#fff' }}>
-							<IconButton name="share" />
-						</CardMenu>
-					</Card>
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-						<CardTitle
-							style={{
-								color: '#000',
-								height: '176px',
-								backgroundImage: `url(${movieDatabase})`,
-							}}
-						></CardTitle>
-						<CardText>Movie Database</CardText>
-						<CardActions border>
-							<a
-								className="button-ancestor"
-								href="https://github.com/Sorsi/movie-database"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								GitHub
-							</a>
-							<a
-								className="button-ancestor"
-								href={movieDatabase}
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								Show a pic
-							</a>
-							<a
-								className="button-ancestor"
-								href="https://sorsi.github.io/movie-database/"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								App
-							</a>
-						</CardActions>
-						<CardMenu style={{ color: '#fff' }}>
-							<IconButton name="share" />
-						</CardMenu>
-					</Card>
-					<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-						<CardTitle
-							style={{
-								color: '#000',
-								height: '176px',
-								backgroundImage: `url(${memoriesApp})`,
-							}}
-						></CardTitle>
-						<CardText>Memories App</CardText>
-						<CardActions border>
-							<a
-								className="button-ancestor"
-								href="https://github.com/Sorsi/Memories"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								GitHub
-							</a>
-							<a
-								className="button-ancestor"
-								href={memoriesApp}
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								Show a pic
-							</a>
-							<a
-								className="button-ancestor"
-								href="https://xenodochial-euler-0680bb.netlify.app/"
-								rel="noopener noreferrer"
-								target="_blank"
-							>
-								App
-							</a>
-						</CardActions>
-						<CardMenu style={{ color: '#fff' }}>
-							<IconButton name="share" />
-						</CardMenu>
-					</Card>
-				</div>
-			);
-		} else if (this.state.activeTab === 2) {
-			<div className="projects-grid">
-				<Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-						<CardTitle
-							style={{
-								color: '#000',
-								height: '176px',
-								backgroundImage: `url(${coffeeStore})`,
+								backgroundImage: `url(${wheelOfFortune})`,
+								backgroundSize: 'contain',
 							}}
 						></CardTitle>
 						<CardText>Wheel of Fortune Game</CardText>
@@ -360,7 +365,8 @@ class Projects extends Component {
 							<IconButton name="share" />
 						</CardMenu>
 					</Card>
-			</div>
+				</div>
+			);
 		} else if (this.state.activeTab === 3) {
 			return (
 				<div className="projects-grid">

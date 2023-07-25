@@ -70,6 +70,8 @@
 /* PROJECTS PAGE CSS */
 .projects-grid {
   display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .button-ancestor {
@@ -207,5 +209,15 @@
 
   .banner-text h1 {
     font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .projects-grid {
+    /* flex-direction: column; */
+  }
+
+  .mdl-card {
+    margin-bottom: 1rem;
   }
 }
