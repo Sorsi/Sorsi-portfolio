@@ -84,7 +84,7 @@ class Resume extends Component {
 						<Experience
 							startYear={2018}
 							endYear={2020}
-							jobName="Software Developer at Ericcson"
+							jobName="Software Developer at Ericsson"
 							jobDescription="At Ericsson I had the chance to develop tools for internal usage to automate release processes."
 							techStack="HTML, CSS, JS/TS, Angular JS, Python, Django REST, GIT, JIRA"
 						/>
